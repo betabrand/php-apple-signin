@@ -2,8 +2,8 @@
 
 namespace AppleSignIn;
 
-use AppleSignIn\Vendor\JWK;
-use AppleSignIn\Vendor\JWT;
+use AppleSignIn\JWK;
+use AppleSignIn\JWT;
 
 use Exception;
 

@@ -15,6 +15,8 @@
 		"php": ">=7.0"
 	},
     "autoload": {
-        "psr-0": { "AppleSignIn\\": "" }
+        "psr-0": {
+            "AppleSignIn": "src/"
+        }
     }
 }

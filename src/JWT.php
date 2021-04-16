@@ -1,6 +1,6 @@
 <?php
 
-namespace AppleSignIn\Vendor;
+namespace AppleSignIn;
 use \DomainException;
 use Firebase\JWT\BeforeValidException;
 use Firebase\JWT\ExpiredException;
@@ -157,7 +157,7 @@ class JWT
         }
         return $header->kid;
     }
-    
+
     /**
      * Converts and signs a PHP object or array into a JWT string.
      *
