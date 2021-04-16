@@ -6,12 +6,15 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Griffin Ledingham",
-            "email": "gcledingham@gmail.com",
+            "name": "Zach Loubier",
+            "email": "zach@betabrand.com",
             "role": "Developer"
         }
     ],
+    "require": {
+		"php": ">=7.0"
+	},
     "autoload": {
-        "psr-4": { "AppleSignIn\\": "" }
+        "psr-0": { "AppleSignIn\\": "" }
     }
 }
